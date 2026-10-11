@@ -4,6 +4,7 @@ Direct downloads (APK files are Android application packages; install only if yo
 
 | App / build | Download |
 | --- | --- |
+| ChipOS AR Caption Lens 0.2.2 (experimental, arm64 debug) | [Download APK](https://github.com/walkermejames-commits/james-os-apk-repo/releases/download/chipos-ar-0.2.2-caption-lens/chipos-ar-0.2.2-caption-lens-debug.apk) |
 | ChipOS AR Caption Lens 0.2.1 (experimental, arm64 debug) | [Download APK](https://github.com/walkermejames-commits/james-os-apk-repo/releases/download/chipos-ar-0.2.1-caption-lens/chipos-ar-0.2.1-caption-lens-debug.apk) |
 | ChipOS AR Caption Lens 0.2.0 (experimental, arm64 debug) | [Download APK](https://github.com/walkermejames-commits/james-os-apk-repo/releases/download/chipos-ar-0.2.0-caption-lens/chipos-ar-0.2.0-caption-lens-debug.apk) |
 | Scrying RF 0.4.1 (debug) | [Download APK](https://raw.githubusercontent.com/walkermejames-commits/james-os-apk-repo/main/scrying-0.4.1-debug.apk) |
