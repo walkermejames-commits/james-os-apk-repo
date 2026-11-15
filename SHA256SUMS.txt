@@ -1,0 +1,1 @@
+8a359d2a61901bcdab7a2c8e555d4ae44d7f68e4fb9ea9084ded38116c44023e  chipos-studio-0.3.2-arm64.apk
