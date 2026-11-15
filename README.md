@@ -4,6 +4,7 @@ Direct downloads (APK files are Android application packages; install only if yo
 
 | App / build | Download |
 | --- | --- |
+| ChipOS Mark II Unity AR 0.1.0 (experimental ARM64; Unity/XREAL spatial studio + bundled offline speech; not yet device-tested) | [Download APK](https://github.com/walkermejames-commits/james-os-apk-repo/releases/download/chipos-markii-unity-ar-0.1.0/chipos-markii-unity-ar-arm64.apk) |
 | ChipOS Studio 0.3.2 (experimental ARM64; consolidated studio, offline captions + acoustic speaker labels, phone controls + separate glasses caption display) | [Download APK](https://github.com/walkermejames-commits/james-os-apk-repo/releases/download/chipos-studio-0.3.2/chipos-studio-0.3.2-arm64.apk) |
 | ChipOS Studio 0.3.1 (experimental ARM64; phone controls + separate glasses caption display) | [Download APK](https://github.com/walkermejames-commits/james-os-apk-repo/releases/download/chipos-studio-0.3.1/chipos-studio-0.3.1-arm64.apk) |
 | ChipOS Studio 0.3.0 (superseded by 0.3.1; phone studio and floating captions) | [Download APK](https://github.com/walkermejames-commits/james-os-apk-repo/releases/download/chipos-studio-0.3.0/chipos-studio-0.3.0-arm64.apk) |
@@ -24,6 +25,8 @@ Direct downloads (APK files are Android application packages; install only if yo
 
 ChipOS Studio 0.3.2 packages the native creative studio, offline speech and acoustic diarization, floating subtitles, and phone controls for an external glasses caption display. The glasses output is **view-fixed**; this APK has no tracked 6DoF anchors, room scan or LiDAR support. S26/XREAL hardware testing is still required. The APK is signed with the existing experimental Android test certificate. See [0.3.2 build notes](RELEASE_0.3.2.md) and [SHA-256 checksum](SHA256SUMS.txt).
 
-The native Android project is the installable Studio and speech source. The separate Unity/XREAL prototype contains spatial tracking experiments but simulated captions, so it is not included as a working Studio APK. See the source audit in the Android source repository.
+The separate Unity/XREAL APK is an experimental spatial build with offline ASR and diarization assets. It has not been installed or tested on a Samsung S26 or XREAL Air 2 Ultra. Microphone transcription, acoustic speaker identification, spatial tracking, mapping, room-anchor placement and persistence, glasses input, and 16 KB native-library compatibility remain unverified. See [Unity AR 0.1.0 build notes](RELEASE_CHIPOS_MARKII_UNITY_AR_0.1.0.md) and [SHA-256 checksum](SHA256SUMS.txt).
+
+The native Android project is the tested phone Studio and speech source. The separate Unity/XREAL APK includes the spatial SDK and offline speech pipeline but remains unverified on hardware. The older archived Unity keyboard demo still has simulated captions. See the source audit in the Android source repository.
 
 **Do not install the archived ChipOS Mark II keyboard demo for glasses use.** It shows simulated placeholder captions such as “Caption frame received”; they are not speech recognition.
